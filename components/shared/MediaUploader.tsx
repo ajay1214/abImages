@@ -53,7 +53,7 @@ const MediaUploader = ({
 
   return (
     <CldUploadWidget
-      uploadPreset="jsm_abImages"
+      uploadPreset="abImages"
       options={{
         multiple: false,
         resourceType: "image",
