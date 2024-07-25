@@ -81,7 +81,7 @@ export const Collection = ({
             </p>
 
             <Button
-              className="button w-32 bg-purple-gradient bg-cover text-white"
+              className="button w-32 bg-sky-gradient bg-cover text-white"
               onClick={() => onPageChange("next")}
               disabled={Number(page) >= totalPages}
             >
@@ -109,7 +109,7 @@ const Card = ({ image }: { image: IImage }) => {
           sizes="(max-width: 767px) 100vw, (max-width: 1279px) 50vw, 33vw"
         />
         <div className="flex-between">
-          <p className="p-20-semibold mr-3 line-clamp-1 text-dark-600">
+          <p className="p-20-semibold mr-3 line-clamp-1 text-black">
             {image.title}
           </p>
           <Image

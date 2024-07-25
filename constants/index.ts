@@ -2,42 +2,42 @@ export const navLinks = [
   {
     label: "Home",
     route: "/",
-    icon: "/assets/icons/home.svg",
+    icon: "/assets/icons/home1.svg",
   },
   {
     label: "Image Restore",
     route: "/transformations/add/restore",
-    icon: "/assets/icons/image.svg",
+    icon: "/assets/icons/image1.svg",
   },
   {
     label: "Generative Fill",
     route: "/transformations/add/fill",
-    icon: "/assets/icons/stars.svg",
+    icon: "/assets/icons/stars1.svg",
   },
   {
     label: "Object Remove",
     route: "/transformations/add/remove",
-    icon: "/assets/icons/scan.svg",
+    icon: "/assets/icons/scan1.svg",
   },
   {
     label: "Object Recolor",
     route: "/transformations/add/recolor",
-    icon: "/assets/icons/filter.svg",
+    icon: "/assets/icons/filter1.svg",
   },
   {
     label: "Background Remove",
     route: "/transformations/add/removeBackground",
-    icon: "/assets/icons/camera.svg",
+    icon: "/assets/icons/camera1.svg",
   },
   {
     label: "Profile",
     route: "/profile",
-    icon: "/assets/icons/profile.svg",
+    icon: "/assets/icons/profile1.svg",
   },
   {
     label: "Buy Credits",
     route: "/credits",
-    icon: "/assets/icons/bag.svg",
+    icon: "/assets/icons/bag1.svg",
   },
 ];
 
@@ -123,41 +123,41 @@ export const transformationTypes = {
   restore: {
     type: "restore",
     title: "Restore Image",
-    subTitle: "Refine images by removing noise and imperfections",
+    subTitle: "Polish images by reducing noise and correcting imperfections.",
     config: { restore: true },
-    icon: "image.svg",
+    icon: "image1.svg",
   },
   removeBackground: {
     type: "removeBackground",
     title: "Background Remove",
-    subTitle: "Removes the background of the image using AI",
+    subTitle: "Use AI to clear the background of the image.",
     config: { removeBackground: true },
-    icon: "camera.svg",
+    icon: "camera1.svg",
   },
   fill: {
     type: "fill",
     title: "Generative Fill",
-    subTitle: "Enhance an image's dimensions using AI outpainting",
+    subTitle: "Extend image size utilizing AI outpainting techniques.",
     config: { fillBackground: true },
-    icon: "stars.svg",
+    icon: "stars1.svg",
   },
   remove: {
     type: "remove",
     title: "Object Remove",
-    subTitle: "Identify and eliminate objects from images",
+    subTitle: "Spot and delete objects within photos.",
     config: {
       remove: { prompt: "", removeShadow: true, multiple: true },
     },
-    icon: "scan.svg",
+    icon: "scan1.svg",
   },
   recolor: {
     type: "recolor",
     title: "Object Recolor",
-    subTitle: "Identify and recolor objects from the image",
+    subTitle: "Spot and recolor objects within photos.",
     config: {
       recolor: { prompt: "", to: "", multiple: true },
     },
-    icon: "filter.svg",
+    icon: "filter1.svg",
   },
 };
 
