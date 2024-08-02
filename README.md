@@ -15,7 +15,7 @@ Welcome to the **AI-Powered Image Transformation Platform**—an interactive web
 - **Explore & Inspire:** Discover and browse through an array of user-transformed images with easy-to-use pagination.
 
 ### 🔍 Advanced Image Search
-- **Find What You Need:** Quickly locate images based on content or objects using powerful search algorithms.
+- **Find What You Need:** (TO DO)
 
 ### 🛠️ Image Restoration & Enhancement
 - **Revive & Improve:** Breathe new life into old or damaged images with AI-driven restoration and enhancement features.
