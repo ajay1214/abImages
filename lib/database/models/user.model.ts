@@ -13,12 +13,9 @@ const UserSchema = new Schema({
   },
   username: {
     type: String,
-    required: true,
-    unique: true,
   },
   photo: {
     type: String,
-    required: true,
   },
   firstName: {
     type: String,
@@ -32,7 +29,7 @@ const UserSchema = new Schema({
   },
   creditBalance: {
     type: Number,
-    default: 50,
+    default: 18,
   },
 });
 
